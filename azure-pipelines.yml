@@ -14,5 +14,5 @@ steps:
   inputs:
     azureSubscription: 'Visual Studio Premium with MSDN(05d350cc-8f30-461d-be5b-493477eaa418)'
     scriptLocation: 'inlineScript'
-    inlineScript: 'az storage blob upload-batch -d "$web" --account-name "spataforerecipekeeper" -s "$(Build.SourcesDirectory)/src/"'
+    inlineScript: 'az storage blob upload-batch -d "$web" --account-name "spataforerecipekeeper" -s "/src/"'
 
