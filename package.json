@@ -1,0 +1,24 @@
+{
+  "name": "recipe-keeper",
+  "version": "1.0.0",
+  "description": "The Spatafore Family recipe keeper",
+  "main": "/src/javascript/main.js",
+  "scripts": {
+    "build": "rimraf dist && rollup -c && cp -r static/* dist/."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spatacoli/recipe-keeper.git"
+  },
+  "author": "Todd Spatafore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spatacoli/recipe-keeper/issues"
+  },
+  "homepage": "https://github.com/Spatacoli/recipe-keeper#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.16.7",
+    "rollup-plugin-json": "^4.0.0"
+  }
+}
