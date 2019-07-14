@@ -10,10 +10,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: AzureFileCopy@3
+  inputs:
+    SourcePath: '$(Build.Repository.LocalPath)/*'
+    azureSubscription: 'Visual Studio Premium with MSDN(05d350cc-8f30-461d-be5b-493477eaa418)'
+    Destination: 'AzureBlob'
+    storage: 'spataforerecipekeeper'
+    ContainerName: '$web'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
