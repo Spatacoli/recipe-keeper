@@ -1,6 +1,8 @@
 {
-  "categories": {
-    "appetizers": [
+  "categories": [
+    {
+      "name": "Appetizers",
+      "recipes": [
       {
         "name": "Frosted Pecans",
         "author": ["Renee Huntley"],
@@ -67,11 +69,27 @@
           }
         ]
       }
-    ],
-    "soups-salads": [],
-    "main-dishes": [],
-    "side-dishes": [],
-    "desserts": [],
-    "miscellaneous": []
-  }
+    ]
+    },
+    {
+      "name": "Soups & Salads",
+      "recipes": []
+    },
+    {
+      "name": "Main Dishes",
+      "recipes": []
+    },
+    {
+      "name": "Side Dishes",
+      "recipes": []
+    },
+    {
+      "name": "Desserts",
+      "recipes": [] 
+    },
+    { 
+      "name": "Miscellaneous",
+      "recipes": []
+    }
+  ]
 }
