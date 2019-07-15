@@ -5,7 +5,7 @@ module.exports = {
     output: {
       file: 'dist/javascript/bundle.js',
       format: 'iife',
-      name: 'spatafore'
+      name: 'main'
     },
     plugins: [ json() ]
   };
