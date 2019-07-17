@@ -1,0 +1,56 @@
+@import "reset";
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: floralwhite;
+}
+
+nav ul {
+  list-style-type: none;
+
+  li {
+    display: inline;
+
+    div {
+      margin-left: 25px;
+      display: inline;
+      cursor: pointer;
+    }
+
+    div.selected {
+      text-decoration: underline;
+      color: blue;
+    }
+  }
+}
+
+ul li.recipeContainer {
+  display: none;
+
+  &.selected {
+    display: block;
+  }
+}
+
+article.recipe {
+  border: 2px solid black;
+  width: 500px;
+  padding: 10px 20px;
+  margin: 40px;
+
+  h2.author {
+    font-weight: normal;
+    
+    span.author-name {
+      font-weight: bold;
+    }
+  }
+
+  ul.ingredient-list {
+    list-style-type: disc;
+
+    li.ingredient {
+      margin-left: 20px;
+    }
+  }
+}

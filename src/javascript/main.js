@@ -1,8 +1,10 @@
 import recipes from "../../data/recipes.json";
+import "../css/main.scss";
 
 export default function() {
     loadRecipes();
     initNav();
+    openRecipeSection("tab0");
 }
 
 function initNav() {
@@ -14,15 +16,18 @@ function initNav() {
 }
 
 function openRecipeSection(sectionId) {
-    const recipes = document.getElementById("recipes");
-    if (recipes) {
-        const sections = [...recipes.getElementsByClassName("recipeContainer")];
-        sections.forEach((s) => {
-            s.style.display = "none";
-        });
-    
-        let section = recipes.getElementsByClassName(sectionId);
-        section[0].style.display = "block";
+    const oldSelectedItems = document.getElementsByClassName("selected");
+    if (oldSelectedItems) {
+        [...oldSelectedItems].forEach((item) => {
+            item.classList.remove("selected");
+        })
+    }
+
+    const newSelectedItems = document.getElementsByClassName(sectionId);
+    if (newSelectedItems) {
+        [...newSelectedItems].forEach((item) => {
+            item.classList.add("selected");
+        })
     }
 }
 
@@ -70,7 +75,7 @@ function buildArticle(recipe) {
         <h2 class="author">
           From the kitchen of <span class="author-name">${authorNames}</span>
         </h2>
-        <ul>${ingredientList}</ul>
+        <ul class="ingredient-list">${ingredientList}</ul>
         <div class="instructions">${instructions}</div>
       </article>`;
 }
