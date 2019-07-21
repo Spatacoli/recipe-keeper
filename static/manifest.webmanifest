@@ -1,0 +1,20 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Spatafore Family Recipe Keeper",
+  "short-name": "Recepe Keeper",
+  "background-color": "transparent",
+  "display": "minimal-ui",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16"
+    }
+  ],
+  "theme_color": "#052767",
+  "description": "A collection of recipes from the Spatafore Family of Families.",
+  "serviceworker": {
+    "src": "./serviceworker.js"
+  },
+  "start_url": "https://recipes.spatafore.family"
+}

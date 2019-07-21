@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Recipe Keeper - Spatafore Family</title>
     <link rel="stylesheet" href="bundle.css" />
+    <link rel="manifest" href="manifest.webmanifest" />
   </head>
   <body onload="main();">
     <h1>Spatafore Family Recipe Keeper</h1>
@@ -17,5 +18,19 @@
       <ul id="recipes"></ul>
     </div>
     <script src="bundle.js"></script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("serviceworker.js")
+            .then(swReg => {
+              console.log("Servioce worker is registered", swReg);
+            })
+            .catch(err => {
+              console.error("Service worker error", err);
+            });
+        });
+      }
+    </script>
   </body>
 </html>
