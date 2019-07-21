@@ -1,25 +1,32 @@
 @import "reset";
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: floralwhite;
 }
 
-nav ul {
-  list-style-type: none;
+nav {
+  ul {
+    list-style-type: none;
 
-  li {
-    display: inline;
-
-    div {
-      margin-left: 25px;
+    li {
       display: inline;
-      cursor: pointer;
-    }
 
-    div.selected {
-      text-decoration: underline;
-      color: blue;
+      div {
+        margin-left: 25px;
+        display: inline;
+        cursor: pointer;
+      }
+
+      div.selected {
+        text-decoration: underline;
+        color: rgb(5, 39, 103);
+      }
     }
   }
 }
@@ -34,11 +41,12 @@ ul li.recipeContainer {
 
 article.recipe {
   border: 2px solid black;
-  width: 500px;
+  width: 300px;
   padding: 10px 20px;
   margin: 40px;
 
   h2.author {
+    font-size: 0.80em;
     font-weight: normal;
     
     span.author-name {
