@@ -2,13 +2,23 @@
   "dir": "ltr",
   "lang": "en",
   "name": "Spatafore Family Recipe Keeper",
-  "short-name": "Recepe Keeper",
-  "background-color": "transparent",
+  "short_name": "Recepe Keeper",
+  "background_color": "transparent",
   "display": "minimal-ui",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "16x16"
+    },
+    {
+      "src": "images/icon_192.png",
+      "type": "images/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon_512.png",
+      "type": "images/png",
+      "sizes": "512x512"
     }
   ],
   "theme_color": "#052767",
@@ -16,5 +26,5 @@
   "serviceworker": {
     "src": "./serviceworker.js"
   },
-  "start_url": "https://recipes.spatafore.family"
+  "start_url": "https://recipes.spatafore.family/"
 }
