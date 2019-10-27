@@ -11,14 +11,22 @@
       "sizes": "16x16"
     },
     {
+      "src": "images/icon_144.png",
+      "type": "images/png",
+      "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
       "src": "images/icon_192.png",
       "type": "images/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any"
     },
     {
       "src": "images/icon_512.png",
       "type": "images/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any"
     }
   ],
   "theme_color": "#052767",
