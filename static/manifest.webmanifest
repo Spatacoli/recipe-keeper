@@ -26,5 +26,5 @@
   "serviceworker": {
     "src": "./serviceworker.js"
   },
-  "start_url": "https://recipes.spatafore.family/"
+  "start_url": "https://recipes.spatafore.family/index.html"
 }
