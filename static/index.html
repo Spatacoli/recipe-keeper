@@ -51,6 +51,9 @@
             .register("serviceworker.js")
             .then(swReg => {
               console.log("Servioce worker is registered", swReg);
+              swReg.pushManager.subscribe().then(pm => {
+                console.log("Push Manager subscription!", pm);
+              })
             })
             .catch(err => {
               console.error("Service worker error", err);
