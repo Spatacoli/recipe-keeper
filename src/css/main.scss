@@ -20,55 +20,6 @@ div#container {
   display: none;
 }
 
-nav {
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  background-color: rgb(5, 39, 103);
-  color: white;
-  overflow: hidden;
-  &.open {
-    width: 150px;
-    height: 300px;
-    animation-duration: 0.5s;
-    animation-name: slidein;
-  }
-
-  &.closed {
-    width: 40px;
-    height: 40px;
-    animation-duration: 0.25s;
-    animation-name: slideout;
-  }
-
-  .nav-toggle {
-    margin: auto;
-    font-size: 2em;
-  }
-
-  ul#nav-items {
-    list-style-type: none;
-    display: none;
-
-    &.show {
-      display: block;
-    }
-
-    li {
-      div {
-        margin-left: 25px;
-        display: inline;
-        cursor: pointer;
-        color: white;
-      }
-
-      div.selected {
-        text-decoration: underline;
-      }
-    }
-  }
-}
-
 ul#recipes {
   width: 300px;
   margin: 20px auto;
@@ -113,26 +64,56 @@ ul#recipes {
   }
 }
 
-@keyframes slidein {
-  from {
-    width: 40px;
-    height: 40px;
-  }
+.navigation {
+  list-style: none;
+  margin: 0;
 
-  to {
-    width: 150px;
-    height: 300px;
+  background-color: rgb(5, 39, 103);
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+.navigation div {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.navigation div:hover {
+  background: darken(rgb(5, 39, 103), 2%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
   }
 }
 
-@keyframes slideout {
-  from {
-    width: 150px;
-    height: 300px;
+@media all and (max-width: 720px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
   }
 
-  to {
-    width: 40px;
-    height: 40px;
+  .navigation div {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .navigation li:last-of-type div {
+    border-bottom: none;
   }
 }

@@ -9,18 +9,10 @@ export default function() {
 
 function initNav() {
   let navItems = [...document.getElementsByClassName("nav-item")];
-  const navExpose = document.getElementsByClassName("nav-expose")[0];
-  const navClose = document.getElementsByClassName("nav-close")[0];
-
-  navExpose.classList.remove("hide");
-  navClose.classList.add("hide");
 
   navItems.forEach(item => {
     item.onclick = openRecipeSection.bind(this, item.classList[1]);
   });
-
-  navExpose.onclick = openNavigation;
-  navClose.onclick = closeNavigation;
 }
 
 function openNavigation() {
@@ -54,7 +46,7 @@ function closeNavigation() {
 }
 
 function openRecipeSection(sectionId) {
-  closeNavigation();
+  //closeNavigation();
   const oldSelectedItems = document.getElementsByClassName("selected");
   if (oldSelectedItems) {
     [...oldSelectedItems].forEach(item => {
