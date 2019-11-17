@@ -5,6 +5,21 @@ export default function() {
   loadRecipes();
   initNav();
   openRecipeSection("tab0");
+
+  document.addEventListener("scroll", navbarStick);
+}
+
+const navbar = document.querySelector(".navigation");
+let sticky = 0;
+
+// Add the sticky class to the navbar when you reach its scroll position.
+// Remove "sticky" when you leave the scroll position
+function navbarStick() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }
 
 function initNav() {
@@ -13,6 +28,8 @@ function initNav() {
   navItems.forEach(item => {
     item.onclick = openRecipeSection.bind(this, item.classList[1]);
   });
+
+  sticky = navbar.offsetTop;
 }
 
 function openNavigation() {
