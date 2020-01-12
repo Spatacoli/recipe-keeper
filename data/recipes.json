@@ -3,79 +3,117 @@
     {
       "name": "Appetizers",
       "recipes": [
-      {
-        "id": 1,
-        "name": "Frosted Pecans",
-        "author": ["Renee Huntley"],
-        "ingredient": ["1/2 C Dairy Sour Cream", "1 1/2 C Sugar", "1 1/2 tsp Vanilla", "3 C Pecan Halves"],
-        "yield": "1 1/4 lbs",
-        "instructions": [
-          {
-            "value": "Combine sour cream, sugar, and vanilla in 2 QT heavy saucepan. Cook to the soft ball stage (234°), stirring frequently to prevent scorching. Add pecans and stir to coat. Turn into buttered baking sheet and separate with 2 forks. Package and freeze in airtight containers."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Egg Rolls",
-        "author": ["Tonja Cone"],
-        "ingredient": ["1 LB ground beef", "1 tsp salt", "1 tsp accent", "1/2 tsp pepper", "1 C chopped onions", "1 C shredded carrots", "3 C shredded cabbage", "1 1/2 C chopped celery", "1 pkg egg roll wrappers"],
-        "yield": null,
-        "instructions": [
-          {
-            "value": "Brown ground beef, add salt, pepper, and accent. Stir in the vegetables (add a little at a time). Constantly stirring mixture. Cook on low heat until the vegetables are cooked. Cool 10-15 minutes. Put a moderate amount of mixture on each wrapper. Fold one side over the mixture, then fold in the 2 ends on opposite sides and roll. Should look like a folded burrito. Deep fry in hot oil until golden brown."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Oven-made Carmel Corn",
-        "author": ["Renee Huntley"],
-        "ingredient": ["5 qts popped corn", "1 C butter", "2 C brown sugar, firmly packed", "1/2 C light corn syrup", "1 tsp salt", "1/2 tsp baking soda"],
-        "yield": null,
-        "instructions": [
-          {
-            "value": "Spread freshly popped corn in a large, shallow sheet pan. Put it in a slow oven (250°) to keep warm and crisp. Combine butter, brown sugar, corn syrup, and salt in 2 QT heavy saucepan. Place on medium heat, stirring until sugar dissolves. Continue to boil to the firm ball stage (248°), about 5 minutes. Remove from heat and stir in baking soda. Syrup will foam. Take popped corn from oven and pour hot carmel mixture over it in a fine stream. Stir to mix well. Return to oven for 45-50 minutes, stirring every 15 minutes. Cool."
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Oh Yeah!",
-        "author": ["Nanci Vohs"],
-        "ingredient": [ "2 sm cans diced green peppers. (if you like it hot use Jalapenos)", "2 sm cans diced black olives", "some chopped onions (to taste)", "2 chopped tomatoes", "1/4 C vinegar", "2 tbs oil", "Taco or Picante Sauce"],
-        "yield": null,
-        "instructions": [
-          {
-            "value": "Mix everything and taste as you go along. Serve with taco chips."
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Italian Meat Balls",
-        "author": ["Thomas Spatafore"],
-        "ingredient": ["1 LB ground beef", "1/2 C shredded provolone or mozzerella cheese", "2 tsp garlic salt", "1 - 1 1/2 tsp Italian seasoning", "1/2 C bread crumbs", "1 Egg, slightly beaten", "1/2 C tomato sauce"],
-        "yield": null,
-        "instructions": [
-          {
-            "value": "Combine all ingredients. Shape into 1 - 1 1/2 inch balls. Bake in shallow pan at 350° for 12 - 15 minutes or until done. Add to pasta dishes or spaghetti with tomato sauce."
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "name": "Toast",
-        "author": ["Tom Cone"],
-        "ingredient": ["Bread", "Toaster"],
-        "yield": "2 slices",
-        "instructions": [
-          {
-            "value": "Carefully, remove bread from package. Place 2 slices in space provided. For those that have 4 spaces, choose 2 you feel comfortable with. Insure toaster is plugged in (that is the tricky part). Apply pressure to button until clicking sound. This tells you the toaster is cooking. When button pops up, this tells you your creation is done. Pat yourself on the back and apply whatever condiments are to your tastes or whatever is available."
-          }
-        ]
-      }
-    ]
+        {
+          "id": 1,
+          "name": "Frosted Pecans",
+          "author": ["Renee Huntley"],
+          "ingredient": [
+            "1/2 C Dairy Sour Cream",
+            "1 1/2 C Sugar",
+            "1 1/2 tsp Vanilla",
+            "3 C Pecan Halves"
+          ],
+          "yield": "1 1/4 lbs",
+          "instructions": [
+            {
+              "value": "Combine sour cream, sugar, and vanilla in 2 QT heavy saucepan. Cook to the soft ball stage (234°), stirring frequently to prevent scorching. Add pecans and stir to coat. Turn into buttered baking sheet and separate with 2 forks. Package and freeze in airtight containers."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Egg Rolls",
+          "author": ["Tonja Cone"],
+          "ingredient": [
+            "1 LB ground beef",
+            "1 tsp salt",
+            "1 tsp accent",
+            "1/2 tsp pepper",
+            "1 C chopped onions",
+            "1 C shredded carrots",
+            "3 C shredded cabbage",
+            "1 1/2 C chopped celery",
+            "1 pkg egg roll wrappers"
+          ],
+          "yield": null,
+          "instructions": [
+            {
+              "value": "Brown ground beef, add salt, pepper, and accent. Stir in the vegetables (add a little at a time). Constantly stirring mixture. Cook on low heat until the vegetables are cooked. Cool 10-15 minutes. Put a moderate amount of mixture on each wrapper. Fold one side over the mixture, then fold in the 2 ends on opposite sides and roll. Should look like a folded burrito. Deep fry in hot oil until golden brown."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Oven-made Carmel Corn",
+          "author": ["Renee Huntley"],
+          "ingredient": [
+            "5 qts popped corn",
+            "1 C butter",
+            "2 C brown sugar, firmly packed",
+            "1/2 C light corn syrup",
+            "1 tsp salt",
+            "1/2 tsp baking soda"
+          ],
+          "yield": null,
+          "instructions": [
+            {
+              "value": "Spread freshly popped corn in a large, shallow sheet pan. Put it in a slow oven (250°) to keep warm and crisp. Combine butter, brown sugar, corn syrup, and salt in 2 QT heavy saucepan. Place on medium heat, stirring until sugar dissolves. Continue to boil to the firm ball stage (248°), about 5 minutes. Remove from heat and stir in baking soda. Syrup will foam. Take popped corn from oven and pour hot carmel mixture over it in a fine stream. Stir to mix well. Return to oven for 45-50 minutes, stirring every 15 minutes. Cool."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Oh Yeah!",
+          "author": ["Nanci Vohs"],
+          "ingredient": [
+            "2 sm cans diced green peppers. (if you like it hot use Jalapenos)",
+            "2 sm cans diced black olives",
+            "some chopped onions (to taste)",
+            "2 chopped tomatoes",
+            "1/4 C vinegar",
+            "2 tbs oil",
+            "Taco or Picante Sauce"
+          ],
+          "yield": null,
+          "instructions": [
+            {
+              "value": "Mix everything and taste as you go along. Serve with taco chips."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Italian Meat Balls",
+          "author": ["Thomas Spatafore"],
+          "ingredient": [
+            "1 LB ground beef",
+            "1/2 C shredded provolone or mozzerella cheese",
+            "2 tsp garlic salt",
+            "1 - 1 1/2 tsp Italian seasoning",
+            "1/2 C bread crumbs",
+            "1 Egg, slightly beaten",
+            "1/2 C tomato sauce"
+          ],
+          "yield": null,
+          "instructions": [
+            {
+              "value": "Combine all ingredients. Shape into 1 - 1 1/2 inch balls. Bake in shallow pan at 350° for 12 - 15 minutes or until done. Add to pasta dishes or spaghetti with tomato sauce."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Toast",
+          "author": ["Tom Cone"],
+          "ingredient": ["Bread", "Toaster"],
+          "yield": "2 slices",
+          "instructions": [
+            {
+              "value": "Carefully, remove bread from package. Place 2 slices in space provided. For those that have 4 spaces, choose 2 you feel comfortable with. Insure toaster is plugged in (that is the tricky part). Apply pressure to button until clicking sound. This tells you the toaster is cooking. When button pops up, this tells you your creation is done. Pat yourself on the back and apply whatever condiments are to your tastes or whatever is available."
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Soups & Salads",
@@ -84,7 +122,16 @@
           "id": 7,
           "name": "Pineapple & Cottage Cheese Salad",
           "author": ["Tina King"],
-          "ingredient": ["1 pkg Lime Jello", "1 C boiling water", "Juice of 1/2 lemon", "1 C crushed pineapple (drained)", "1 C cottage cheese", "1/2 C nut meats", "12 marshmallows cut fine", "1 C whipped cream"],
+          "ingredient": [
+            "1 pkg Lime Jello",
+            "1 C boiling water",
+            "Juice of 1/2 lemon",
+            "1 C crushed pineapple (drained)",
+            "1 C cottage cheese",
+            "1/2 C nut meats",
+            "12 marshmallows cut fine",
+            "1 C whipped cream"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -96,7 +143,13 @@
           "id": 8,
           "name": "Watergate Salad",
           "author": ["Tina King"],
-          "ingredient": ["1 20oz can crushed pineapple and juice", "1 box pistachio pudding", "1 C miniature marshmallows", "1/2 C nuts", "9oz Cool Whip"],
+          "ingredient": [
+            "1 20oz can crushed pineapple and juice",
+            "1 box pistachio pudding",
+            "1 C miniature marshmallows",
+            "1/2 C nuts",
+            "9oz Cool Whip"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -108,7 +161,18 @@
           "id": 9,
           "name": "Potluck Size Fiesta Salad",
           "author": ["unknown"],
-          "ingredient": ["1 roasting pan", "4 cans Ranch style beans, rinsed.", "1 small onion chopped", "1 large green pepper chopped, or 4 Anaheim peppers roasted with olive oil, peeled and chopped.", "4 ripe tomatoes (fairly large)", "1 large head of lettuce - 2 - 2 1/2 lbs. Ripped into small pieces", "2 large ripe avacados", "1 1/2 lbs shredded cheddar cheese", "1 small bottle Wishbone Italian salad dressing", "1 bag Fritos crushed"],
+          "ingredient": [
+            "1 roasting pan",
+            "4 cans Ranch style beans, rinsed.",
+            "1 small onion chopped",
+            "1 large green pepper chopped, or 4 Anaheim peppers roasted with olive oil, peeled and chopped.",
+            "4 ripe tomatoes (fairly large)",
+            "1 large head of lettuce - 2 - 2 1/2 lbs. Ripped into small pieces",
+            "2 large ripe avacados",
+            "1 1/2 lbs shredded cheddar cheese",
+            "1 small bottle Wishbone Italian salad dressing",
+            "1 bag Fritos crushed"
+          ],
           "yield": "lots",
           "instructions": [
             {
@@ -120,7 +184,15 @@
           "id": 10,
           "name": "Tossed Green Salad",
           "author": ["unknown"],
-          "ingredient": ["1 head lettuce", "red cabbage", "celery", "carrots", "fresh green beans", "mushrooms", "radishes"],
+          "ingredient": [
+            "1 head lettuce",
+            "red cabbage",
+            "celery",
+            "carrots",
+            "fresh green beans",
+            "mushrooms",
+            "radishes"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -135,7 +207,16 @@
           "id": 11,
           "name": "Apricot Jello Salad",
           "author": ["Tina King"],
-          "ingredient": ["1 lg pkg Apricot Jello", "2 C water", "1/2 C sugar", "1 8oz pkg Philadelphia Cream Cheese", "1 15 1/2 oz can crushed pineapple", "Medium size Cool Whip", "Chopped Nuts (optional)", "Marshmallows (optional)"],
+          "ingredient": [
+            "1 lg pkg Apricot Jello",
+            "2 C water",
+            "1/2 C sugar",
+            "1 8oz pkg Philadelphia Cream Cheese",
+            "1 15 1/2 oz can crushed pineapple",
+            "Medium size Cool Whip",
+            "Chopped Nuts (optional)",
+            "Marshmallows (optional)"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -147,7 +228,17 @@
           "id": 12,
           "name": "Seven Layer Salad",
           "author": ["Lois Breidenbach"],
-          "ingredient": ["1/2 bowl shredded lettuce", "1/4 to 1/2 C chopped celery", "1 green pepper, chopped", "1 Spanish onion, chopped", "1 pkg frozen peas", "1 pint mayonaise", "3 tbs sugar", "1/2 lb crisp bacon", "Parmesan Cheese"],
+          "ingredient": [
+            "1/2 bowl shredded lettuce",
+            "1/4 to 1/2 C chopped celery",
+            "1 green pepper, chopped",
+            "1 Spanish onion, chopped",
+            "1 pkg frozen peas",
+            "1 pint mayonaise",
+            "3 tbs sugar",
+            "1/2 lb crisp bacon",
+            "Parmesan Cheese"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -159,7 +250,15 @@
           "id": 13,
           "name": "Roquefort Dressing",
           "author": ["Renee Huntley"],
-          "ingredient": ["1 large onion, chopped", "1/2 green pepper, chopped", "1 clove garlic, chopped - or - Garlic Salt", "1 6oz package Bleu Cheese", "1 tsp Worchestershire Sauce", "1 tbs catsup", "2 qt Best Foods Real Mayonaise"],
+          "ingredient": [
+            "1 large onion, chopped",
+            "1/2 green pepper, chopped",
+            "1 clove garlic, chopped - or - Garlic Salt",
+            "1 6oz package Bleu Cheese",
+            "1 tsp Worchestershire Sauce",
+            "1 tbs catsup",
+            "2 qt Best Foods Real Mayonaise"
+          ],
           "yield": "2 1/2 quarts",
           "instructions": [
             {
@@ -176,7 +275,14 @@
           "id": 14,
           "name": "Poppy Seed Chicken",
           "author": ["Dawn Spatafore"],
-          "ingredient": ["4 chicken breasts, cooked (boil with broth for 10 minutes)", "1 C sour cream", "1 can Cream of Chicken Soup", "1/4 C Poppy Seads", "1/3 box Ritz crackers, crumbled", "1/2 C butter"],
+          "ingredient": [
+            "4 chicken breasts, cooked (boil with broth for 10 minutes)",
+            "1 C sour cream",
+            "1 can Cream of Chicken Soup",
+            "1/4 C Poppy Seads",
+            "1/3 box Ritz crackers, crumbled",
+            "1/2 C butter"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -188,7 +294,15 @@
           "id": 15,
           "name": "Rosemary's Chicken",
           "author": ["unknown"],
-          "ingredient": ["4 whole chicken breasts (split with skin off)", "2 cans of fat free chicken soup", "generous dash of crushed thyme", "1/4 cup margarine", "2 cups sliced mushrooms", "1 large clove of garlic, minced", "1 cup fat free sour cream"],
+          "ingredient": [
+            "4 whole chicken breasts (split with skin off)",
+            "2 cans of fat free chicken soup",
+            "generous dash of crushed thyme",
+            "1/4 cup margarine",
+            "2 cups sliced mushrooms",
+            "1 large clove of garlic, minced",
+            "1 cup fat free sour cream"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -200,7 +314,17 @@
           "id": 16,
           "name": "Juneau Crab Soufflé",
           "author": ["Linda Spatafore"],
-          "ingredient": ["1/2 C dry macaroni", "1 1/2 C milk", "1/4 C butter", "1 C soft bread crumbs", "1/2 tsp accent", "1 C grated cheese", "1 can crab meat", "Salt & Pepper to taste", "3 eggs"],
+          "ingredient": [
+            "1/2 C dry macaroni",
+            "1 1/2 C milk",
+            "1/4 C butter",
+            "1 C soft bread crumbs",
+            "1/2 tsp accent",
+            "1 C grated cheese",
+            "1 can crab meat",
+            "Salt & Pepper to taste",
+            "3 eggs"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -212,7 +336,15 @@
           "id": 17,
           "name": "Super Beefy Enchiladas",
           "author": ["Linda Spatafore"],
-          "ingredient": ["1 1/2 C cubed cooked beef - or - 1 - 1 1/2 lbs hamburger", "1 C (4oz) shredded sharp cheddar cheese", "1/2 C chopped onion", "1 10 3/4 oz can condensed cream of mushroom soup", "1 10 3/4 oz can condensed tomato soup", "1 10 oz can hot or mild enchilada sauce", "12 tortillas"],
+          "ingredient": [
+            "1 1/2 C cubed cooked beef - or - 1 - 1 1/2 lbs hamburger",
+            "1 C (4oz) shredded sharp cheddar cheese",
+            "1/2 C chopped onion",
+            "1 10 3/4 oz can condensed cream of mushroom soup",
+            "1 10 3/4 oz can condensed tomato soup",
+            "1 10 oz can hot or mild enchilada sauce",
+            "12 tortillas"
+          ],
           "yield": "6 servings",
           "instructions": [
             {
@@ -224,7 +356,14 @@
           "id": 18,
           "name": "Hamburger Balls",
           "author": ["Renee Huntley"],
-          "ingredient": ["1/4 C rice", "1 lb hamburger", "1 egg", "salt & pepper", "1 small can tomatoes", "1 small onion, diced"],
+          "ingredient": [
+            "1/4 C rice",
+            "1 lb hamburger",
+            "1 egg",
+            "salt & pepper",
+            "1 small can tomatoes",
+            "1 small onion, diced"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -236,7 +375,12 @@
           "id": 19,
           "name": "Quick Sloppy Joes",
           "author": ["Stella Brafford"],
-          "ingredient": ["1 1/2 lbs hamburger", "1 can undiluted chicken gumbo soup", "1/2 tbs prepared mustard", "1/2 C catsup"],
+          "ingredient": [
+            "1 1/2 lbs hamburger",
+            "1 can undiluted chicken gumbo soup",
+            "1/2 tbs prepared mustard",
+            "1/2 C catsup"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -248,7 +392,22 @@
           "id": 20,
           "name": "Beef Stroganoff",
           "author": ["Gloria Spatafore"],
-          "ingredient": ["1 can mushrooms", "1 medium onion", "salt & pepper", "1/4 C butter", "1/4 C flour", "6 tbl oil", "1 1/2 lbs Round Steak, in thin strips", "1 Beef Cube", "2 C boiling water", "3 tbl katsup", "3 tbl Worcestershire", "1/2 tbl dill or thyme", "1 bay leaf", "1 C sour cream"],
+          "ingredient": [
+            "1 can mushrooms",
+            "1 medium onion",
+            "salt & pepper",
+            "1/4 C butter",
+            "1/4 C flour",
+            "6 tbl oil",
+            "1 1/2 lbs Round Steak, in thin strips",
+            "1 Beef Cube",
+            "2 C boiling water",
+            "3 tbl katsup",
+            "3 tbl Worcestershire",
+            "1/2 tbl dill or thyme",
+            "1 bay leaf",
+            "1 C sour cream"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -263,7 +422,16 @@
           "id": 21,
           "name": "Swedish Meat Balls",
           "author": ["Nanci Vohs"],
-          "ingredient": ["Ratio of 1 lb hamburger to 1/4 lb sausage", "1 medium chopped onion", "1 C bread crumbs, cubed dressing mix (unspiced)", "1 egg, beaten", "salt & pepper", "1 tsp Allspice", "2 tbs sugar", "Some milk"],
+          "ingredient": [
+            "Ratio of 1 lb hamburger to 1/4 lb sausage",
+            "1 medium chopped onion",
+            "1 C bread crumbs, cubed dressing mix (unspiced)",
+            "1 egg, beaten",
+            "salt & pepper",
+            "1 tsp Allspice",
+            "2 tbs sugar",
+            "Some milk"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -275,7 +443,20 @@
           "id": 22,
           "name": "Lasagne",
           "author": ["Angie Depping"],
-          "ingredient": ["Sauce:", "1 lb pork sausage", "2 8oz cans tomato sauce", "1 4oz can tomato paste", "1 pkg spaghetti sauce seasoning", "1/4 C parmesan cheese", "Filling:", "12 wide lasagne noodles, cooked", "1 12 oz pkg ricotta cheese or cottage cheese, drained", "1 lg egg", "1 C mozzerella cheese", "1/2 C parmesan cheese"],
+          "ingredient": [
+            "Sauce:",
+            "1 lb pork sausage",
+            "2 8oz cans tomato sauce",
+            "1 4oz can tomato paste",
+            "1 pkg spaghetti sauce seasoning",
+            "1/4 C parmesan cheese",
+            "Filling:",
+            "12 wide lasagne noodles, cooked",
+            "1 12 oz pkg ricotta cheese or cottage cheese, drained",
+            "1 lg egg",
+            "1 C mozzerella cheese",
+            "1/2 C parmesan cheese"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -290,7 +471,14 @@
           "id": 23,
           "name": "Egg Dish Breakfast",
           "author": ["Betty Rud"],
-          "ingredient": ["8 slices white bread cubed", "1 1/2 lb grated colby or longhorn cheese", "8 eggs", "2 tsp dry mustard", "1 tsp salt", "4 C milk"],
+          "ingredient": [
+            "8 slices white bread cubed",
+            "1 1/2 lb grated colby or longhorn cheese",
+            "8 eggs",
+            "2 tsp dry mustard",
+            "1 tsp salt",
+            "4 C milk"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -305,7 +493,16 @@
           "id": 24,
           "name": "Ham Casserole",
           "author": ["Renee Huntley"],
-          "ingredient": ["2 C cooked ham, cubed", "2 medium potatoes, boiled & diced", "1 C green beans, cooked or canned", "1/4 C butter or margarine", "1/4 C flour", "2 C milk", "1 C grated cheese", "1 1/2 C bread crumbs"],
+          "ingredient": [
+            "2 C cooked ham, cubed",
+            "2 medium potatoes, boiled & diced",
+            "1 C green beans, cooked or canned",
+            "1/4 C butter or margarine",
+            "1/4 C flour",
+            "2 C milk",
+            "1 C grated cheese",
+            "1 1/2 C bread crumbs"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -317,7 +514,14 @@
           "id": 25,
           "name": "Chicken Casserole",
           "author": ["Dora White"],
-          "ingredient": ["8 - 10 single chicken breasts", "1 cup sour cream", "1 stick margarine", "Onion salt", "2 cans cream of chicken soup", "1 1/2 stacks of Ritz crackers"],
+          "ingredient": [
+            "8 - 10 single chicken breasts",
+            "1 cup sour cream",
+            "1 stick margarine",
+            "Onion salt",
+            "2 cans cream of chicken soup",
+            "1 1/2 stacks of Ritz crackers"
+          ],
           "yield": "Serves 8 - 10",
           "instructions": [
             {
@@ -332,7 +536,14 @@
           "id": 26,
           "name": "Enchilada Casserole",
           "author": ["Dawn Spatafore"],
-          "ingredient": ["1 pkg corn chips", "2 lbs hamburger", "1 can Cream of Mushroom Soup", "1 can Cream of Chicken Soup", "2 cans enchilada sauce (mild or hot)", "3 C sharp cheddar cheese"],
+          "ingredient": [
+            "1 pkg corn chips",
+            "2 lbs hamburger",
+            "1 can Cream of Mushroom Soup",
+            "1 can Cream of Chicken Soup",
+            "2 cans enchilada sauce (mild or hot)",
+            "3 C sharp cheddar cheese"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -344,7 +555,16 @@
           "id": 52,
           "name": "Stuffed Eggplant",
           "author": ["Spatafore Family"],
-          "ingredient": ["2 Eggplants", "1/2 lb Pork Sausage", "1/4 C grated parmesan cheese", "1 can tomato sauce", "1 tsp oregano", "3 C bread crumbs", "dash of salt", "lots of pepper"],
+          "ingredient": [
+            "2 Eggplants",
+            "1/2 lb Pork Sausage",
+            "1/4 C grated parmesan cheese",
+            "1 can tomato sauce",
+            "1 tsp oregano",
+            "3 C bread crumbs",
+            "dash of salt",
+            "lots of pepper"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -361,7 +581,16 @@
           "id": 27,
           "name": "Potato Casserole",
           "author": ["Donna Cone"],
-          "ingredient": ["2 lbs frozen hash browns", "1/2 C melted butter", "1 tsp salt", "1 can Cream of Chicken Soup", "1/4 tsp pepper", "2 C grated cheddar cheese", "1/2 C chopped onion", "2 C sour cream (large container)"],
+          "ingredient": [
+            "2 lbs frozen hash browns",
+            "1/2 C melted butter",
+            "1 tsp salt",
+            "1 can Cream of Chicken Soup",
+            "1/4 tsp pepper",
+            "2 C grated cheddar cheese",
+            "1/2 C chopped onion",
+            "2 C sour cream (large container)"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -373,7 +602,17 @@
           "id": 28,
           "name": "Fried Rice",
           "author": ["Thomas Spatafore"],
-          "ingredient": ["4 - 5 C rice", "4 eggs", "3 tbs vegtable oil", "2 tbs chopped scallions", "1 tsp salt", "1/2 tsp sugar", "1 tbs soy sauce", "Dash of pepper", "1/4 C chicken broth or stock"],
+          "ingredient": [
+            "4 - 5 C rice",
+            "4 eggs",
+            "3 tbs vegtable oil",
+            "2 tbs chopped scallions",
+            "1 tsp salt",
+            "1/2 tsp sugar",
+            "1 tbs soy sauce",
+            "Dash of pepper",
+            "1/4 C chicken broth or stock"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -385,7 +624,17 @@
           "id": 29,
           "name": "Squash Casserole",
           "author": ["Donna Cone"],
-          "ingredient": ["2 onions, chopped", "2 C diced yellow squash", "1 C water", "1 can Cream of Chicken Soup", "1/2 C mayonnaise", "2 eggs, beaten", "1 C cheddar cheese, shredded", "1/2 bag herb dressing", "1/2 stick melted oleo"],
+          "ingredient": [
+            "2 onions, chopped",
+            "2 C diced yellow squash",
+            "1 C water",
+            "1 can Cream of Chicken Soup",
+            "1/2 C mayonnaise",
+            "2 eggs, beaten",
+            "1 C cheddar cheese, shredded",
+            "1/2 bag herb dressing",
+            "1/2 stick melted oleo"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -402,7 +651,16 @@
           "id": 30,
           "name": "3 Step Dessert",
           "author": ["Tina King"],
-          "ingredient": ["1 1/4 cup flour", "1 stick plus 2 tbs margarine", "1/3 C chopped walnuts", "1 C Cool Whip", "1 8oz pkg Philadelphia Cream Cheese", "1 C powdered sugar", "2 pkg instant lemon pudding", "3 C milk"],
+          "ingredient": [
+            "1 1/4 cup flour",
+            "1 stick plus 2 tbs margarine",
+            "1/3 C chopped walnuts",
+            "1 C Cool Whip",
+            "1 8oz pkg Philadelphia Cream Cheese",
+            "1 C powdered sugar",
+            "2 pkg instant lemon pudding",
+            "3 C milk"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -420,7 +678,19 @@
           "id": 31,
           "name": "Chocolate Crinkles",
           "author": ["Tonja Cone"],
-          "ingredient": ["1/2 C shortening", "1 2/3 C sugar", "2 tsp vanilla", "2 eggs", "2 1oz squares unsweetened chocolate, melted", "2 C flour", "2 tsp baking powder", "1/2 tsp salt", "1/3 C milk", "Chopped nuts (optional)", "Sifted Powdered Sugar"],
+          "ingredient": [
+            "1/2 C shortening",
+            "1 2/3 C sugar",
+            "2 tsp vanilla",
+            "2 eggs",
+            "2 1oz squares unsweetened chocolate, melted",
+            "2 C flour",
+            "2 tsp baking powder",
+            "1/2 tsp salt",
+            "1/3 C milk",
+            "Chopped nuts (optional)",
+            "Sifted Powdered Sugar"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -432,7 +702,16 @@
           "id": 32,
           "name": "Blonde Brownies",
           "author": ["Lillie DeMartin"],
-          "ingredient": ["2 3/4 C sifted flour", "2 1/2 tsp baking powder", "1/2 tsp salt", "2/3 C butter", "2 1/4 C brown sugar", "3 eggs", "1 C chopped walnuts", "1 pkg chocolate chips"],
+          "ingredient": [
+            "2 3/4 C sifted flour",
+            "2 1/2 tsp baking powder",
+            "1/2 tsp salt",
+            "2/3 C butter",
+            "2 1/4 C brown sugar",
+            "3 eggs",
+            "1 C chopped walnuts",
+            "1 pkg chocolate chips"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -444,7 +723,15 @@
           "id": 33,
           "name": "Butterfinger Dessert",
           "author": ["Louise Markve"],
-          "ingredient": ["1/2 C butter, melted", "2 C crushed graham crackers", "2 C milk", "2 pkgs vanilla instant pudding", "1 qt vanilla ice cream", "9oz Cool Whip", "Butterfinger candy bars"],
+          "ingredient": [
+            "1/2 C butter, melted",
+            "2 C crushed graham crackers",
+            "2 C milk",
+            "2 pkgs vanilla instant pudding",
+            "1 qt vanilla ice cream",
+            "9oz Cool Whip",
+            "Butterfinger candy bars"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -456,7 +743,23 @@
           "id": 34,
           "name": "Chocolate Drop Cookies",
           "author": ["unknown"],
-          "ingredient": ["1/4 C butter or margarine", "1/4 C shortening", "3/4 C sugar", "1 egg", "2 1oz sq unsweetened chocolate", "1 3/4 C flour", "1/2 tsp baking soda", "1/2 tsp salt", "1/2 C milk", "1 tsp vanilla", "1/2 C walnuts", "2 tbs butter", "2 tbs milk", "2 tbs cocoa", "Powdered Sugar"],
+          "ingredient": [
+            "1/4 C butter or margarine",
+            "1/4 C shortening",
+            "3/4 C sugar",
+            "1 egg",
+            "2 1oz sq unsweetened chocolate",
+            "1 3/4 C flour",
+            "1/2 tsp baking soda",
+            "1/2 tsp salt",
+            "1/2 C milk",
+            "1 tsp vanilla",
+            "1/2 C walnuts",
+            "2 tbs butter",
+            "2 tbs milk",
+            "2 tbs cocoa",
+            "Powdered Sugar"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -471,7 +774,17 @@
           "id": 35,
           "name": "Sugar Cookies",
           "author": ["Renee Huntley"],
-          "ingredient": ["1 C butter", "1 C vegetable oil", "1 C powdered sugar", "1 C sugar", "1 tsp vanilla", "4 C flour", "2 eggs", "1 tsp salt", "1 tsp cream of tartar"],
+          "ingredient": [
+            "1 C butter",
+            "1 C vegetable oil",
+            "1 C powdered sugar",
+            "1 C sugar",
+            "1 tsp vanilla",
+            "4 C flour",
+            "2 eggs",
+            "1 tsp salt",
+            "1 tsp cream of tartar"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -483,7 +796,16 @@
           "id": 36,
           "name": "No Bake Cookies",
           "author": ["Tonja Cone"],
-          "ingredient": ["2 C sugar", "1 cube butter", "4 tsp cocoa", "1/2 C milk", "1 tsp vanilla", "3 C oatmeal", "1/2 C chopped nuts", "1 C coconut"],
+          "ingredient": [
+            "2 C sugar",
+            "1 cube butter",
+            "4 tsp cocoa",
+            "1/2 C milk",
+            "1 tsp vanilla",
+            "3 C oatmeal",
+            "1/2 C chopped nuts",
+            "1 C coconut"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -495,7 +817,14 @@
           "id": 37,
           "name": "Scotcharoos",
           "author": ["Linda Spatafore"],
-          "ingredient": ["1 1/2 C Peanut Butter", "1 C light Karo Syrup", "1 C Sugar", "4 C Rice Krispies", "1 bag chocolate chips", "1 bag butterscotch chips"],
+          "ingredient": [
+            "1 1/2 C Peanut Butter",
+            "1 C light Karo Syrup",
+            "1 C Sugar",
+            "4 C Rice Krispies",
+            "1 bag chocolate chips",
+            "1 bag butterscotch chips"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -507,7 +836,16 @@
           "id": 38,
           "name": "4 Layer Surprise Dessert",
           "author": ["Donna Cone"],
-          "ingredient": ["1 C flour", "1/2 C chopped pecans", "1 stick margarine", "1 cup/8oz cream cheese", "1 C confectioners sugar", "1 C Cool Whip", "1 large pkg of Vanilla Instant Pudding", "1 1/2 C milk"],
+          "ingredient": [
+            "1 C flour",
+            "1/2 C chopped pecans",
+            "1 stick margarine",
+            "1 cup/8oz cream cheese",
+            "1 C confectioners sugar",
+            "1 C Cool Whip",
+            "1 large pkg of Vanilla Instant Pudding",
+            "1 1/2 C milk"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -528,7 +866,14 @@
           "id": 39,
           "name": "Divinity",
           "author": ["Sarah Cone"],
-          "ingredient": ["5 C Sugar", "1 C light corn syrup", "1 C water", "2 large or 3 small egg whites", "1 - 2 tsp vanilla", "2 C chopped nuts"],
+          "ingredient": [
+            "5 C Sugar",
+            "1 C light corn syrup",
+            "1 C water",
+            "2 large or 3 small egg whites",
+            "1 - 2 tsp vanilla",
+            "2 C chopped nuts"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -540,7 +885,13 @@
           "id": 40,
           "name": "Sand Tarts",
           "author": ["Donna Cone"],
-          "ingredient": ["1 lb butter", "1 C powdered sugar", "4 C cake flour", "1 C chopped pecans", "2 tsp vanilla"],
+          "ingredient": [
+            "1 lb butter",
+            "1 C powdered sugar",
+            "4 C cake flour",
+            "1 C chopped pecans",
+            "2 tsp vanilla"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -552,7 +903,15 @@
           "id": 41,
           "name": "Turdees or Winoes",
           "author": ["Fern Spatafore"],
-          "ingredient": ["11 C flour", "14 eggs", "2 C sugar", "1 1/3 C white wine", "1/2 C vegetable oil", "2 tsp salt", "1 C honey"],
+          "ingredient": [
+            "11 C flour",
+            "14 eggs",
+            "2 C sugar",
+            "1 1/3 C white wine",
+            "1/2 C vegetable oil",
+            "2 tsp salt",
+            "1 C honey"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -567,7 +926,18 @@
           "id": 42,
           "name": "Gold Medal Soft Molasses Cookies",
           "author": ["Jessie Martin Huntley"],
-          "ingredient": ["1 1/4 C shortening", "1 C sugar", "6 C flour", "2 tsp baking soda", "1 tsp salt", "1 tsp Allspice", "1 tsp ginger", "1 tsp cinnamon", "1 C dark molasses", "1 C cold coffee"],
+          "ingredient": [
+            "1 1/4 C shortening",
+            "1 C sugar",
+            "6 C flour",
+            "2 tsp baking soda",
+            "1 tsp salt",
+            "1 tsp Allspice",
+            "1 tsp ginger",
+            "1 tsp cinnamon",
+            "1 C dark molasses",
+            "1 C cold coffee"
+          ],
           "yield": "Makes 5 dozen cookies",
           "instructions": [
             {
@@ -579,7 +949,12 @@
           "id": 43,
           "name": "Melting Moments",
           "author": ["Renee Huntley"],
-          "ingredient": ["2/3 C corn starch", "1/3 C powdered sugar", "1 C soft butter", "1 C flour"],
+          "ingredient": [
+            "2/3 C corn starch",
+            "1/3 C powdered sugar",
+            "1 C soft butter",
+            "1 C flour"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -594,7 +969,18 @@
           "id": 44,
           "name": "Peanut Butter Bars",
           "author": ["Stella Brafford"],
-          "ingredient": ["1 C sugar (brown or white)", "1 C white Karo syrup", "1 C peanut butter", "2 tsp vanilla", "2 C Rice Krispies", "2 C corn flakes", "1 C nuts (if desired)", "1/2 C brown sugar", "2 tsp milk", "1/4 C margarine"],
+          "ingredient": [
+            "1 C sugar (brown or white)",
+            "1 C white Karo syrup",
+            "1 C peanut butter",
+            "2 tsp vanilla",
+            "2 C Rice Krispies",
+            "2 C corn flakes",
+            "1 C nuts (if desired)",
+            "1/2 C brown sugar",
+            "2 tsp milk",
+            "1/4 C margarine"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -606,7 +992,16 @@
           "id": 45,
           "name": "Double Decker Fudge",
           "author": ["Linda Spatafore"],
-          "ingredient": ["2 C (12 oz pkg) Reese's peanut butter chips, divided", "1/4 C butter, melted", "1/2 C Hershey's Cocoa", "1 tsp vanilla", "4 1/2 C sugar", "1 jar (7oz) marshmallow cream", "1 1/2 C (12oz can) evaporated milk", "1/4 C butter"],
+          "ingredient": [
+            "2 C (12 oz pkg) Reese's peanut butter chips, divided",
+            "1/4 C butter, melted",
+            "1/2 C Hershey's Cocoa",
+            "1 tsp vanilla",
+            "4 1/2 C sugar",
+            "1 jar (7oz) marshmallow cream",
+            "1 1/2 C (12oz can) evaporated milk",
+            "1/4 C butter"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -627,7 +1022,18 @@
           "id": 46,
           "name": "My Secret Chocolate Chip Cookies",
           "author": ["Todd Spatafore"],
-          "ingredient": ["3/4 C butter flavored Crisco", "2 tbs milk", "1 tbs vanilla paste", "1 large egg", "1 tsp salt", "1 tsp baking soda", "2/3 + 1/8 C sugar", "1/2 C brown sugar", "2 C flour", "1 1/2 C chocolate chips"],
+          "ingredient": [
+            "3/4 C butter flavored Crisco",
+            "2 tbs milk",
+            "1 tbs vanilla paste",
+            "1 large egg",
+            "1 tsp salt",
+            "1 tsp baking soda",
+            "2/3 + 1/8 C sugar",
+            "1/2 C brown sugar",
+            "2 C flour",
+            "1 1/2 C chocolate chips"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -639,7 +1045,18 @@
           "id": 47,
           "name": "Double Chocolate Cookies",
           "author": ["Renee Huntley"],
-          "ingredient": ["2 6oz pkgs chocolate chips", "2 tbs butter", "3/4 C sugar", "1 egg", "1 1/2 tsp vanilla", "1 tbs milk", "1/2 C flour", "1/2 tsp salt", "1/4 tsp baking powder", "1 1/2 C coarsely broken walnuts"],
+          "ingredient": [
+            "2 6oz pkgs chocolate chips",
+            "2 tbs butter",
+            "3/4 C sugar",
+            "1 egg",
+            "1 1/2 tsp vanilla",
+            "1 tbs milk",
+            "1/2 C flour",
+            "1/2 tsp salt",
+            "1/4 tsp baking powder",
+            "1 1/2 C coarsely broken walnuts"
+          ],
           "yield": "3 1/2 - 4 dozen",
           "instructions": [
             {
@@ -651,7 +1068,18 @@
           "id": 48,
           "name": "Grandma Boag's Chocolate Cake",
           "author": ["Gloria Spatafore"],
-          "ingredient": ["1/2 C cocoa", "1 C hot water or strong hot coffee", "1 1/2 C sifted flour", "3/4 tsp salt", "1 tsp soda", "1/4 tsp baking powder", "1/2 C soft shortening", "1 1/4 C granulated sugar", "2 unbeaten eggs", "1/2 tsp vanilla"],
+          "ingredient": [
+            "1/2 C cocoa",
+            "1 C hot water or strong hot coffee",
+            "1 1/2 C sifted flour",
+            "3/4 tsp salt",
+            "1 tsp soda",
+            "1/4 tsp baking powder",
+            "1/2 C soft shortening",
+            "1 1/4 C granulated sugar",
+            "2 unbeaten eggs",
+            "1/2 tsp vanilla"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -663,7 +1091,17 @@
           "id": 49,
           "name": "Annabel's Better than Sex Cake",
           "author": ["Nanci Vohs"],
-          "ingredient": ["2 C flour", "1 1/2 C sugar", "2 tsp oil", "1 egg", "1 tsp soda", "1/2 tsp salt", "1 No. 2 can (2 1/2 C) crushed pineapple (juice and all)", "1/2 C coconut", "1/2 C nuts"],
+          "ingredient": [
+            "2 C flour",
+            "1 1/2 C sugar",
+            "2 tsp oil",
+            "1 egg",
+            "1 tsp soda",
+            "1/2 tsp salt",
+            "1 No. 2 can (2 1/2 C) crushed pineapple (juice and all)",
+            "1/2 C coconut",
+            "1/2 C nuts"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -673,17 +1111,53 @@
               "value": "After the cake has cooled, frost with: 1 cube butter, 1 C sugar, 1/2 condensed milk. Boil for 5 minutes on the stove and stir to make sure it does not burn."
             }
           ]
+        },
+        {
+          "id": 53,
+          "name": "Grandma's Chocolate Frosting",
+          "author": ["Renee Huntley"],
+          "ingredient": [
+            "1 C sugar",
+            "1/4 C milk",
+            "1/4 C butter",
+            "1/4 C cocoa",
+            "1 tsp vanilla"
+          ],
+          "yield": null,
+          "instructions": [
+            {
+              "value": "Heat together and stir all ingredients except vanilla on medium - medium high heat. Untill it boils. Add 1 tsp of vanilla. Do not stir and let boil for 1 minute. Then stir until thick."
+            },
+            {
+              "value": "But not too thick."
+            },
+            {
+              "value": "But thick enough..."
+            },
+            {
+              "value": "Spreadable"
+            }
+          ]
         }
-      ] 
+      ]
     },
-    { 
+    {
       "name": "Miscellaneous",
       "recipes": [
         {
           "id": 50,
           "name": "Bran Muffins",
           "author": ["Nanci Vohs"],
-          "ingredient": ["1 C boiling water", "4 C all bran", "1 C shortening", "1 C sugar (more if you like it sweeter)", "4 eggs", "5 tsp soda", "5 C flour", "1 qt buttermilk"],
+          "ingredient": [
+            "1 C boiling water",
+            "4 C all bran",
+            "1 C shortening",
+            "1 C sugar (more if you like it sweeter)",
+            "4 eggs",
+            "5 tsp soda",
+            "5 C flour",
+            "1 qt buttermilk"
+          ],
           "yield": null,
           "instructions": [
             {
@@ -695,7 +1169,15 @@
           "id": 51,
           "name": "Sourdough starter & pancakes",
           "author": ["Thomas Spatafore"],
-          "ingredient": ["1 tsp yeast", "4 tsp milk", "4 tsp flour", "2 eggs", "4 tsp sugar", "1 tsp soda", "1/4 tsp salt"],
+          "ingredient": [
+            "1 tsp yeast",
+            "4 tsp milk",
+            "4 tsp flour",
+            "2 eggs",
+            "4 tsp sugar",
+            "1 tsp soda",
+            "1/4 tsp salt"
+          ],
           "yield": null,
           "instructions": [
             {
