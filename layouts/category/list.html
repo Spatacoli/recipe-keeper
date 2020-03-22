@@ -1,0 +1,11 @@
+{{ define "title" }}
+  {{ .Title }} · {{ .Site.Title }}
+{{ end }}
+{{ define "content" }}
+  <section class="container list">
+    <h1 class="title">{{ .Title }}</h1>
+    {{ range where .Site.Pages "Params.category" .Params.pageCategory }}
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    {{ end }}
+  </section>
+{{ end }}
