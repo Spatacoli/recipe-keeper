@@ -1,0 +1,7 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Spatafore Family Recipe Keeper"
+theme = "gochowdown"
+
+[params]
+showNavTitle = true
