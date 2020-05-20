@@ -19,7 +19,7 @@ jobs:
       with:
         submodules: true
     - name: Setup Hugo
-        uses:
+        uses: peaceiris/actions-hugo@v2.4.8
           with:
             hugo-version: "latest"
     - name: Build
