@@ -1,0 +1,18 @@
+<div class="home">
+
+  <ul>
+    {{ range sort (where .Site.RegularPages "Section" "recipes") "Title" }}
+    <li><a href="{{ .RelPermalink }}">
+      <h2 class="title">
+      {{ .Title }}
+      </h2>
+    </a></li>
+    {{ end }}
+  </div>
+
+  <div class="container mt4 mb4">
+    <div class="sm-col-6 mx-auto px3 sm-px4">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
