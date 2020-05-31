@@ -40,5 +40,6 @@
     {{ if .Site.GoogleAnalytics }}
       {{ template "_internal/google_analytics.html" . }}
     {{ end }}
+    {{ partial "service-worker.html" . }}
   </body>
 </html>
