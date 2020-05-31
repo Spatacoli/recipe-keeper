@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://recipes.spatafore.family/"
 languageCode = "en-us"
 title = "Spatafore Family Recipe Keeper"
 theme = "gochowdown"
