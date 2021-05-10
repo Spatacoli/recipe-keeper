@@ -1,4 +1,4 @@
-baseURL = "https://recipes.spatafore.family/"
+baseURL = "https://www.spatafore.family/"
 languageCode = "en-us"
 title = "Spatafore Family Recipe Keeper"
 theme = "gochowdown"
