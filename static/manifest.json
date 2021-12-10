@@ -1,28 +1,23 @@
 {
+    "background_color": "#3478c1",
+    "description": "Get our free Vudu app and watch your favorite movies and TV shows anytime, anywhere. Buy or rent from over 150,000 titles and watch the latest releases weeks before Blu-ray/DVD, Netflix, and Redbox.",
     "dir": "ltr",
-    "lang": "en-us",
-    "name": "Spatafore Family Recipe Keeper",
-    "short_name": "Recipe Keeper",
-    "scope": "/",
     "display": "standalone",
-    "start_url": "https://www.spatafore.family/",
-    "background_color": "#000000",
-    "theme_color": "transparent",
-    "description": "",
+    "name": "Vudu",
     "orientation": "any",
-    "related_applications": [],
-    "prefer_related_applications": false,
+    "scope": "/",
+    "short_name": "Vudu",
+    "start_url": "https://www.qa.marquee.net/",
+    "theme_color": "#3478c1",
+    "categories": ["entertainment"],
+    "screenshots": [],
     "icons": [
-        {
-            "src": "https://www.spatafore.family/images/favicon-32x32.png",
-            "sizes": "32x32",
-            "type": "image/png"
-        },
-        {
-            "src": "https://www.spatafore.family/images/favicon-16x16.png",
-            "sizes": "16x16",
-            "type": "image/png"
-        }
+      {
+        "src": "/bluesteel/images/pwa/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+    }
     ],
-    "url": "https://www.spatafore.family"
-}
+    "shortcuts": []
+  }
